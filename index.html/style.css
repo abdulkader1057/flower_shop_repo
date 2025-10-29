@@ -119,20 +119,6 @@
   font-size: 24px;
   font-weight: 700;
 }
-/* .container {
-  text-align: center;
-  margin-top: 50px;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 8px;
-  background: rgba(39, 39, 39, 0.05);
-}
-.cards {
-  display: flex;
-  justify-content: space-between;
-} */
 
 .container {
   width: 90%;
@@ -155,4 +141,23 @@
   font-size: 16px;
   color: #333;
   margin-top: 15px;
+}
+
+/* hot deals sections */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffeef5;
+  padding: 60px 100px 0px;
+}
+span {
+  color: #e91e63;
+}
+.left-content {
+  text-align: center;
+  margin-left: 100px;
+}
+.right-content {
+  margin: 50px 150px 50px 20px;
 }
