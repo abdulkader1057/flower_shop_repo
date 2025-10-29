@@ -194,3 +194,117 @@ span {
 .copy {
   color: rgba(255, 255, 255, 0.4);
 }
+
+/* Media Query for iPhone X / 11 (width: 375px) */
+@media only screen and (max-width: 400px) {
+  /* Banner section */
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .left-side {
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .right-side {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .right-side img {
+    width: 250px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .sub-title {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .primary-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Featured section */
+  .card_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card_container img {
+    height: auto;
+    width: 250px;
+    padding: 40px;
+  }
+
+  /* Container (3 service cards) */
+  .cards {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  /* Hot deals */
+  .content {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .left-content {
+    margin: 0;
+  }
+
+  .right-content {
+    margin: 0;
+  }
+
+  .right-content img {
+    width: 250px;
+  }
+
+  /* Instagram section */
+  .featured .card_container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured img {
+    width: 280px;
+    margin-bottom: 10px;
+  }
+
+  /* Latest deals */
+  .latest {
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .input {
+    width: 90%;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 80px 20px;
+  }
+
+  .footer h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+}
