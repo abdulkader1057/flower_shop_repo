@@ -119,3 +119,40 @@
   font-size: 24px;
   font-weight: 700;
 }
+/* .container {
+  text-align: center;
+  margin-top: 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.container {
+  width: 90%;
+  margin: 70px auto;
+  padding: 40px 0;
+  padding: 100px 100px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+}
+
+.cards p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 15px;
+}
