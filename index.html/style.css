@@ -180,3 +180,17 @@ span {
   border: 1px solid gray;
   margin-right: 10px;
 }
+/* footer section */
+
+.footer {
+  background: rgba(17, 16, 16, 1);
+  text-align: center;
+  padding: 120px 50px;
+  color: #ffffff;
+}
+.footer p {
+  margin: 15px 0px;
+}
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+}
